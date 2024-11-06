@@ -4,6 +4,7 @@ num_2 = 30.5
 print(type(num_1))
 print(type(num_2))
 
+# Conversión Implícita
 num_1 = num_1 + num_2 # Reescribimos num_1 y cambia su tipo implícitamente
 print(type(num_1))
 
