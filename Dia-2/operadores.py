@@ -1,0 +1,18 @@
+x = 6
+y = 2
+z = 7
+
+print(f'{x} mas {y} es igual a: {x + y}')
+print(f'{x} menos {y} es igual a: {x - y}')
+print(f'{x} por {y} es igual a: {x * y}')
+print(f'{x} dividido {y} es igual a: {x / y}')
+
+# División al piso
+print(f'{z} dividido al piso de {y} es igual a: {z // y}')
+print(f'{z} modulo de {y} es igual a: {z % y}')
+print(f'{x} elevado a la {y} es igual a: {x ** y}')
+print(f'{x} elevado a la {3} es igual a: {x ** 3}')
+
+# Para calcular la raiz cuadrada de cualquier número es suficiente con
+# elevarlo a la 0.5
+print(f'La raiz cuadrada de {x} es {x ** 0.5}')
