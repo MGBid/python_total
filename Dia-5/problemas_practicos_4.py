@@ -26,5 +26,7 @@ def contar_primos(numero):
     print(primos)
     return len(primos)
 
-print(contar_primos(21))
+print(contar_primos(150))
+print(contar_primos(50))
+print(contar_primos(1))
 
