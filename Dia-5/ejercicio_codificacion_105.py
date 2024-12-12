@@ -7,6 +7,9 @@ La función debe devolver el siguiente mensaje:
 
 def numeros_persona(nombre, *args):
     suma_numeros = sum(args)
+    print(type(args))
+    print(args)
+
     return f'{nombre}, la suma de tus números es {suma_numeros}'
 
 print(numeros_persona('Mónica', 7, 25, 90, 1, 3, 5, 7, 9)) # 147
